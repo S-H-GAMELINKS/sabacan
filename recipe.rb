@@ -8,3 +8,6 @@ execute "apt update & upgrade" do
     command "apt update && apt upgrade"
 end
 
+package "curl" do
+    action :install
+end
